@@ -1,0 +1,33 @@
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "604c1504-c6a3-4080-81aa-b33091104187",
+    "id": "0c4c2628-ef77-4a9b-8ada-d5bf0401c996",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Concierge Subscription",
+    "state": "Enabled",
+    "tenantId": "604c1504-c6a3-4080-81aa-b33091104187",
+    "user": {
+      "name": "emilemborgthiel@gmail.com",
+      "type": "user"
+    }
+  },
+  {
+    "cloudName": "AzureCloud",
+    "id": "6656a980-51bf-4e1e-9cb3-f52d3d2631bd",
+    "isDefault": false,
+    "name": "N/A(tenant level account)",
+    "state": "Enabled",
+    "tenantId": "6656a980-51bf-4e1e-9cb3-f52d3d2631bd",
+    "user": {
+      "name": "emilemborgthiel@gmail.com",
+      "type": "user"
+    }
+  }
+]
+
+
+
+
+az account set --subscription 0c4c2628-ef77-4a9b-8ada-d5bf0401c996
